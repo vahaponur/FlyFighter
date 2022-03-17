@@ -12,13 +12,29 @@ public class CollisionHandler : MonoBehaviour
     #endregion
 
     #region Private Fields
+
+    private ParticleSystem _explosionVfx;
+    private MeshRenderer _meshRenderer;
+    private MeshCollider _meshCollider;
     #endregion
 
     #region Public Properties
     #endregion
 
     #region MonoBehaveMethods
-    
+
+    private void Awake()
+    {
+        _meshRenderer = GetComponent<MeshRenderer>();
+    }
+
+    private void Start()
+    {
+        _explosionVfx = transform.GetChildWithTag("ExplosionVFX").GetComponent<ParticleSystem>();
+        _meshCollider = transform.Find("Collider").GetComponent<MeshCollider>();
+
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         ProcessCrash();
@@ -40,7 +56,11 @@ public class CollisionHandler : MonoBehaviour
         {
             controller.enabled = false;
         }
+
+        _meshCollider.enabled = false;
+        _meshRenderer.enabled = false;
         
+        _explosionVfx.PlayWithLogic();
         SceneManagerAdapter.ReloadSceneAfter(1);
     }
     #endregion

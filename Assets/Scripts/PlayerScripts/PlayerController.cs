@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 using UnityEngine.Serialization;
 
 
@@ -27,7 +27,7 @@ public class PlayerController : StandardInput
     [SerializeField] [Range(1, 15)] private float _controlPitchFactor = 15f;
     [SerializeField] [Range(1, 30)] private float _controlRollFactor = 30f;
 
-    [SerializeField] private InputAction movement;
+
     #endregion
 
     #region Private Fields
@@ -168,6 +168,7 @@ public class PlayerController : StandardInput
         if (Input.GetButton("Fire1"))
         {
             ControlEmission(true);
+ 
             return;
         }
 

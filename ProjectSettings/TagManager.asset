@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Laser
+  - ExplosionVFX
   layers:
   - Default
   - TransparentFX

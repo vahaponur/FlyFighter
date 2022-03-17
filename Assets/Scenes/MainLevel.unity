@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &275901365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 275901366}
+  m_Layer: 0
+  m_Name: Spawn At Runtime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275901366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275901365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &527401937
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf2f094da0e6948b1589515e3800c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _deathVFX: {fileID: 7774727615111708248, guid: 99606a4b4cbf75143947e90c76ea18b0, type: 3}
+  _parent: {fileID: 275901365}
 --- !u!1 &764318684
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +441,7 @@ GameObject:
   - component: {fileID: 764318686}
   - component: {fileID: 764318685}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -484,13 +516,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764318684}
-  m_LocalRotation: {x: -0, y: -0, z: -0.20440261, w: 0.9788869}
-  m_LocalPosition: {x: 916.8, y: 24.4, z: 660.9893}
+  m_LocalRotation: {x: -0, y: -0, z: -0.17387223, w: 0.9847683}
+  m_LocalPosition: {x: 910.4, y: 42.5, z: 660.9893}
   m_LocalScale: {x: 54.87, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.589}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.026}
 --- !u!1 &1936320066
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf2f094da0e6948b1589515e3800c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _deathVFX: {fileID: 7774727615111708248, guid: 99606a4b4cbf75143947e90c76ea18b0, type: 3}
+  _parent: {fileID: 275901365}
 --- !u!135 &1951418612
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -687,6 +721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6712788194994751490, guid: 574b5fb51b303ca4a9178056613c62a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.56
+      objectReference: {fileID: 0}
     - target: {fileID: 6712788196313522209, guid: 574b5fb51b303ca4a9178056613c62a2, type: 3}
       propertyPath: m_RootOrder
       value: 2

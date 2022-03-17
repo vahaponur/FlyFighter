@@ -6,6 +6,10 @@ using UnityEngine;
 public class EnemyEventsHandler : MonoBehaviour
 {
     #region Serialized Fields
+    [Tooltip("Particle to instansiate on death")]
+    [SerializeField] private GameObject _deathVFX;
+
+    [SerializeField] private GameObject _parent;
     #endregion
 
     #region Private Fields
@@ -35,6 +39,8 @@ public class EnemyEventsHandler : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
+        var vfx = Instantiate(_deathVFX, transform.position, Quaternion.identity);
+        vfx.transform.SetParent(_parent.transform);
         Destroy(gameObject);
     }
 
