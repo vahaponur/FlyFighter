@@ -1,0 +1,725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &517026107553645192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517026107553645193}
+  m_Layer: 0
+  m_Name: Wave 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517026107553645193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517026107553645192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 189.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2370018922403218108}
+  - {fileID: 6648671210100486251}
+  - {fileID: 563389459998746997}
+  - {fileID: 852844189457945451}
+  - {fileID: 9202152853578632819}
+  - {fileID: 2433910910061057654}
+  - {fileID: 2291198910935391484}
+  - {fileID: 2715717416619824442}
+  - {fileID: 4901572574905991186}
+  - {fileID: 2351263118194671537}
+  - {fileID: 2298474394218226290}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &674666744890260567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98001826
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19890772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2715717416619824442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 674666744890260567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &868967031696321489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2370018922403218108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 868967031696321489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &886525330561226460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2351263118194671537 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 886525330561226460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &948626049349435163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9816273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19080894
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2433910910061057654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 948626049349435163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2826332073871096326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9816273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19080894
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &852844189457945451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 2826332073871096326}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3115717938094014488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9816273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19080894
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &563389459998746997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 3115717938094014488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3677502485581384479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60249054
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7981261
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 105.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2298474394218226290 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 3677502485581384479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3685974242191766929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98001826
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19890772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &2291198910935391484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 3685974242191766929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6005640321157981982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9816273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19080894
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &9202152853578632819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 6005640321157981982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7559622961516587391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98001826
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19890772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &4901572574905991186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 7559622961516587391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8117769609310066950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 517026107553645193}
+    m_Modifications:
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98001826
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19890772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240564265988706709, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+      propertyPath: m_Name
+      value: Panzerkampfwagen (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+--- !u!4 &6648671210100486251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3237190167714638189, guid: 65b857e1f01a7d749a299adb6f217462, type: 3}
+  m_PrefabInstance: {fileID: 8117769609310066950}
+  m_PrefabAsset: {fileID: 0}

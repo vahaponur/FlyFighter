@@ -10,22 +10,31 @@ public class PlayerController : StandardInput
 {
     #region Serialized Fields
 
-    [Header("Position Change Variables")] [FormerlySerializedAs("xMoveRange")] [Range(1, 10)] [SerializeField]
+    [Header("Position Change Variables")]
+    [FormerlySerializedAs("xMoveRange")]
+    [Range(1, 10)]
+    [SerializeField]
     private float _xMoveRange = 8;
 
-    [FormerlySerializedAs("yMoveRange")] [Range(1, 6)] [SerializeField]
+    [FormerlySerializedAs("yMoveRange")]
+    [Range(1, 6)]
+    [SerializeField]
     private float _yMoveRange = 5;
 
-    [FormerlySerializedAs("_speed")] [Range(20, 100)] [SerializeField]
+    [FormerlySerializedAs("_speed")]
+    [Range(20, 100)]
+    [SerializeField]
     private float _axisSpeed = 35f;
 
-    [Header("Rotation Change Variables")] [SerializeField] [Range(1, 5)]
+    [Header("Rotation Change Variables")]
+    [SerializeField]
+    [Range(1, 5)]
     private float _positionPitchFactor = 4f;
 
-    [SerializeField] [Range(1, 5)] private float _positionYawFactor = 2f;
+    [SerializeField][Range(1, 5)] private float _positionYawFactor = 2f;
 
-    [SerializeField] [Range(1, 15)] private float _controlPitchFactor = 15f;
-    [SerializeField] [Range(1, 30)] private float _controlRollFactor = 30f;
+    [SerializeField][Range(1, 15)] private float _controlPitchFactor = 15f;
+    [SerializeField][Range(1, 30)] private float _controlRollFactor = 30f;
 
 
     #endregion
@@ -36,12 +45,12 @@ public class PlayerController : StandardInput
     /// One over square root two
     /// </summary>
     private readonly float _hypotenusScaler = 0.707f;
-    
+
     /// <summary>
     /// For returning the original value of axis speed if altering needed
     /// </summary>
     private float _originalAxisSpeed;
-    
+
     /// <summary>
     /// Lasers attached to the ship
     /// </summary>
@@ -168,34 +177,34 @@ public class PlayerController : StandardInput
         if (Input.GetButton("Fire1"))
         {
             ControlEmission(true);
- 
+
             return;
         }
 
         ControlEmission(false);
     }
-    
+
     /// <summary>
     /// Gets the lasers attached the player spaceship
     /// </summary>
     /// <returns>Laser gameobjects attached to player spaceship</returns>
     GameObject[] GetLasers()
     {
-        var lasers = new GameObject[2];
+        var lasers = new List<GameObject>();
         var lasIndex = 0;
         foreach (Transform child in transform)
         {
             if (child.gameObject.CompareTag("Laser"))
             {
-                lasers[lasIndex] = child.gameObject;
+                lasers.Add(child.gameObject);
                 lasIndex++;
             }
         }
 
-        return lasers;
+        return lasers.ToArray();
     }
-    
-     /// <summary>
+
+    /// <summary>
     /// Controls emission of the lasers
     /// </summary>
     /// <param name="isActive">For each laser, true mean enable, false otherwise</param>
@@ -207,7 +216,7 @@ public class PlayerController : StandardInput
             em.enabled = isActive;
         }
     }
-  
+
 
     #endregion
 }

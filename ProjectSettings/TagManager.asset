@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Laser
   - ExplosionVFX
+  - ScoreBoard
+  - InstanceCollector
   layers:
   - Default
   - TransparentFX

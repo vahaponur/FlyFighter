@@ -16,6 +16,7 @@ public class CollisionHandler : MonoBehaviour
     private ParticleSystem _explosionVfx;
     private MeshRenderer _meshRenderer;
     private MeshCollider _meshCollider;
+    AudioSource _audioSource;
     #endregion
 
     #region Public Properties
@@ -31,6 +32,7 @@ public class CollisionHandler : MonoBehaviour
     private void Start()
     {
         _explosionVfx = transform.GetChildWithTag("ExplosionVFX").GetComponent<ParticleSystem>();
+        _audioSource = transform.GetChildWithTag("ExplosionVFX").GetComponent<AudioSource>();
         _meshCollider = transform.Find("Collider").GetComponent<MeshCollider>();
 
     }
@@ -39,18 +41,19 @@ public class CollisionHandler : MonoBehaviour
     {
         ProcessCrash();
     }
-        
+
     #endregion
-    
+
     #region PublicMethods
     #endregion
-    
+
     #region PrivateMethods
     /// <summary>
     /// Event sequence after player ship hits an object
     /// </summary>
     void ProcessCrash()
     {
+        _audioSource.PlayWithLogic();
         var controller = GetComponent<PlayerController>();
         if (controller != null)
         {
@@ -59,7 +62,7 @@ public class CollisionHandler : MonoBehaviour
 
         _meshCollider.enabled = false;
         _meshRenderer.enabled = false;
-        
+
         _explosionVfx.PlayWithLogic();
         SceneManagerAdapter.ReloadSceneAfter(1);
     }
