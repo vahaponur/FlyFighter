@@ -8,6 +8,11 @@ TagManager:
   - ExplosionVFX
   - ScoreBoard
   - InstanceCollector
+  - MusicVolume
+  - SfxVolume
+  - VoiceVolume
+  - SettingsPanel
+  - MainButton
   layers:
   - Default
   - TransparentFX
