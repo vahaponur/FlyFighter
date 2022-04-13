@@ -101,9 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda627d38890b4d428f1eba4cdc9c87d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _xMoveRange: 6
-  _yMoveRange: 4
-  _axisSpeed: 30
+  _xMoveRange: 8
+  _yMoveRange: 6
+  _axisSpeed: 35
   _positionPitchFactor: 3.5
   _positionYawFactor: 2
   _controlPitchFactor: 15
@@ -188,6 +188,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6598730432587153173}
     m_Modifications:
+    - target: {fileID: -4432426069067859213, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7774727615111708247, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -202,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7774727615111708247, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.9599915
+      value: -3.56
       objectReference: {fileID: 0}
     - target: {fileID: 7774727615111708247, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -235,6 +239,10 @@ PrefabInstance:
     - target: {fileID: 7774727615111708248, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
       propertyPath: m_Name
       value: Expolision VFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774727615111708248, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
+      propertyPath: m_TagString
+      value: ExplosionVFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb9bf896186fd5249969f8fdd837043a, type: 3}
